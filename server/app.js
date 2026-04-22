@@ -11,7 +11,7 @@ const { errorHandler, notFoundHandler } = require('./middleware/errorMiddleware'
 const { ensureDatabase } = require('./models/db');
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 2001;
 
 ensureDatabase();
 
