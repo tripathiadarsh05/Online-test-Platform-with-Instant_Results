@@ -1,0 +1,18 @@
+[
+  {
+    "id": "eb43bbc7-8c56-4047-bcea-0b437d19ab93",
+    "name": "Admin User",
+    "email": "admin@test.com",
+    "password": "$2a$10$fm51/tzBRjf2QoMCD/c97OAv.PexziGTOyP4LG3ZZkT27EKE02h/m",
+    "role": "admin",
+    "createdAt": "2026-04-21T08:39:13.764Z"
+  },
+  {
+    "id": "5e67e69d-c3b9-415c-8904-1558f0feae07",
+    "name": "Student User",
+    "email": "student@test.com",
+    "password": "$2a$10$Dq1LqBBvBLUFQy/XQ8gZ1eoEh.v7fYVG9MKGJtVo3VeOCPvTzWko.",
+    "role": "student",
+    "createdAt": "2026-04-21T08:39:13.765Z"
+  }
+]

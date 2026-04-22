@@ -1,0 +1,44 @@
+[
+  {
+    "id": "c5bc4693-aacf-4fce-80de-734e27fb634c",
+    "title": "JavaScript Fundamentals",
+    "duration": 10,
+    "createdBy": "system",
+    "createdAt": "2026-04-21T08:39:13.766Z",
+    "questions": [
+      {
+        "id": "d99ef933-84d0-41ab-876d-8d8924ee84e9",
+        "text": "Which keyword declares a block-scoped variable?",
+        "options": [
+          "var",
+          "let",
+          "function",
+          "className"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "8dcd7883-ac6b-456b-b82b-8172a0eac4b0",
+        "text": "What does JSON stand for?",
+        "options": [
+          "JavaScript Object Notation",
+          "Java Source Open Network",
+          "Joined Server Object Node",
+          "JavaScript Ordered Name"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "d2d76c20-956f-4ea2-9c5d-917a2b9f3280",
+        "text": "Which array method creates a new transformed array?",
+        "options": [
+          "forEach",
+          "push",
+          "map",
+          "splice"
+        ],
+        "correctIndex": 2
+      }
+    ]
+  }
+]

@@ -1,0 +1,215 @@
+{
+  "users": [
+    {
+      "id": "2517eac9-52f7-4399-8ea3-9cd91b273c88",
+      "name": "Admin User",
+      "email": "admin@test.com",
+      "password": "$2a$10$LnSC404zlchv2e7u891n3ewifvb6jLanCxmbm0A2QZuiL/HfEyVki",
+      "role": "admin",
+      "createdAt": "2026-04-21T08:14:02.491Z"
+    },
+    {
+      "id": "eed854be-48f8-4b71-9bf2-8bdabec0f17c",
+      "name": "Student User",
+      "email": "student@test.com",
+      "password": "$2a$10$aFQGHdXICOd0FVkklHTOhOTRBF6612At/rOsMn57rCuDmL/lHIdx2",
+      "role": "student",
+      "createdAt": "2026-04-21T08:14:02.573Z"
+    }
+  ],
+  "tests": [
+    {
+      "id": "c7454645-2720-4ac1-8181-fc25bb440ca2",
+      "title": "JavaScript Fundamentals",
+      "duration": 5,
+      "createdAt": "2026-04-21T08:14:02.573Z",
+      "questions": [
+        {
+          "id": "7c845788-ddca-4487-b6d8-6194ba1b0dfa",
+          "text": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "function",
+            "return"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "6ad15cbb-6567-4cbe-ab1f-0fd78c318364",
+          "text": "What does JSON stand for?",
+          "options": [
+            "JavaScript Object Notation",
+            "Java Source Open Network",
+            "Joined Script Object Node",
+            "Java Syntax Object Name"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "6a787d65-948f-4269-9bdb-8f9cde213ac2",
+          "text": "Which method converts JSON text into a JavaScript object?",
+          "options": [
+            "JSON.make()",
+            "JSON.parse()",
+            "JSON.stringify()",
+            "Object.json()"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "8c056e68-d319-43c0-ab81-89e6619c183e",
+      "title": "nothing",
+      "duration": 10,
+      "createdAt": "2026-04-21T08:24:01.933Z",
+      "questions": [
+        {
+          "id": "626b1bd2-18de-44ad-8cc0-bea0205c92e1",
+          "text": "2*2",
+          "options": [
+            "4",
+            "56",
+            "52",
+            "6"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "cfde84dc-6cbb-4596-a7ea-aa9bbfb24163",
+          "text": "7*7",
+          "options": [
+            "465",
+            "52",
+            "65",
+            "49"
+          ],
+          "correctAnswer": 3
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "bc6c815d-12fe-49bd-8e98-93c8fa41fb95",
+      "userId": "eed854be-48f8-4b71-9bf2-8bdabec0f17c",
+      "testId": "8c056e68-d319-43c0-ab81-89e6619c183e",
+      "testTitle": "nothing",
+      "score": 2,
+      "total": 2,
+      "percentage": 100,
+      "answers": [
+        {
+          "questionId": "626b1bd2-18de-44ad-8cc0-bea0205c92e1",
+          "questionText": "2*2",
+          "options": [
+            "4",
+            "56",
+            "52",
+            "6"
+          ],
+          "selectedAnswer": 0,
+          "correctAnswer": 0,
+          "isCorrect": true
+        },
+        {
+          "questionId": "cfde84dc-6cbb-4596-a7ea-aa9bbfb24163",
+          "questionText": "7*7",
+          "options": [
+            "465",
+            "52",
+            "65",
+            "49"
+          ],
+          "selectedAnswer": 3,
+          "correctAnswer": 3,
+          "isCorrect": true
+        }
+      ],
+      "tabSwitches": 0,
+      "autoSubmitted": false,
+      "submittedAt": "2026-04-21T08:24:46.482Z"
+    },
+    {
+      "id": "0e9df3c9-f0a1-4da5-a0fe-eb56e3512032",
+      "userId": "eed854be-48f8-4b71-9bf2-8bdabec0f17c",
+      "testId": "8c056e68-d319-43c0-ab81-89e6619c183e",
+      "testTitle": "nothing",
+      "score": 2,
+      "total": 2,
+      "percentage": 100,
+      "answers": [
+        {
+          "questionId": "626b1bd2-18de-44ad-8cc0-bea0205c92e1",
+          "questionText": "2*2",
+          "options": [
+            "4",
+            "56",
+            "52",
+            "6"
+          ],
+          "selectedAnswer": 0,
+          "correctAnswer": 0,
+          "isCorrect": true
+        },
+        {
+          "questionId": "cfde84dc-6cbb-4596-a7ea-aa9bbfb24163",
+          "questionText": "7*7",
+          "options": [
+            "465",
+            "52",
+            "65",
+            "49"
+          ],
+          "selectedAnswer": 3,
+          "correctAnswer": 3,
+          "isCorrect": true
+        }
+      ],
+      "tabSwitches": 0,
+      "autoSubmitted": false,
+      "submittedAt": "2026-04-21T08:44:37.066Z"
+    },
+    {
+      "id": "bbf5cbca-8839-43bf-b9bc-191d24aa8d8e",
+      "userId": "eed854be-48f8-4b71-9bf2-8bdabec0f17c",
+      "testId": "8c056e68-d319-43c0-ab81-89e6619c183e",
+      "testTitle": "nothing",
+      "score": 1,
+      "total": 2,
+      "percentage": 50,
+      "answers": [
+        {
+          "questionId": "626b1bd2-18de-44ad-8cc0-bea0205c92e1",
+          "questionText": "2*2",
+          "options": [
+            "4",
+            "56",
+            "52",
+            "6"
+          ],
+          "selectedAnswer": 0,
+          "correctAnswer": 0,
+          "isCorrect": true
+        },
+        {
+          "questionId": "cfde84dc-6cbb-4596-a7ea-aa9bbfb24163",
+          "questionText": "7*7",
+          "options": [
+            "465",
+            "52",
+            "65",
+            "49"
+          ],
+          "selectedAnswer": null,
+          "correctAnswer": 3,
+          "isCorrect": false
+        }
+      ],
+      "tabSwitches": 0,
+      "autoSubmitted": false,
+      "submittedAt": "2026-04-21T09:00:30.233Z"
+    }
+  ]
+}
